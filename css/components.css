@@ -1,0 +1,42 @@
+@import url("variables.css");
+
+#herobutton {
+  padding: var(--padding-sm);
+  padding-left: 0;
+}
+
+
+.primary-btn:after {
+  background: var(--gradient-text-color);
+  border-radius: 0rem;
+  content: "";
+  display: block;
+  height: 4.25rem;
+  left: 0;
+  /* max-width: 100%; */
+  position: absolute;
+  top: -2px;
+  transform: translate(0.5rem, 0.5rem);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.primary-btn:hover:after {
+  transform: translate(0, 0);
+}
+
+.primary-btn:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.primary-btn:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .primary-btn {
+    padding: 0 40px;
+  }
+}
+

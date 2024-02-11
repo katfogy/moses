@@ -1,0 +1,277 @@
+@import "variables.css";
+@import "layout.css";
+@import "typography.css";
+@import "components.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  overflow-x: hidden;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.display {
+  display: block;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+@media screen and (min-width:300px) {
+
+  .list-items {
+    background-color: var(--primary-text-color);
+    position: fixed;
+    max-width: 100vw;
+    height: 100vh;
+    left: 90px;
+    right: 0;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 20;
+    padding-block: 50px;
+    display: none;
+  }
+
+  .display {
+    display: flex;
+  }
+
+
+  .list-items>* {
+    color: var(--primary-bg-color);
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  .close {
+    position: fixed;
+    color: #ffff;
+    right: 40px;
+    z-index: 25;
+    top: 30px;
+    font-size: var(--font-size-md);
+    display: none;
+
+  }
+
+  .show {
+    display: block;
+  }
+
+
+  nav {
+    height: 100px;
+    /* width: 100%; */
+  }
+
+  #herosection {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--spacing-sm);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    max-width: var(--container);
+    margin: auto;
+  }
+
+  .inner-header {
+    max-width: var(--container);
+    margin: auto;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    padding: var(--spacing-sm);
+    justify-content: space-between;
+    height: 100%;
+    height: 100px;
+    align-items: center;
+
+  }
+
+
+  .hamburger {
+    font-size: var(--font-size-md);
+    cursor: pointer;
+  }
+
+  #heroImage {
+    max-width: var(--container);
+  }
+
+  #heroImage img {
+    width: 100%;
+  }
+
+  #herosection .container {
+    max-width: var(--container);
+    padding: var(--spacing-sm);
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+
+
+  #herobutton {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .primary-btn {
+    background-color: var(--primary-text-color);
+    color: var(--tertiary-text-color);
+    position: relative;
+  }
+
+
+  .text-btn {
+    border: 2px solid var(--secondary-text-color);
+  }
+
+  #herotext {
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+
+  #largeText {
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-inline: 2px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .btn{
+    padding: var(--padding-sm) var(--padding-sm);
+    border: none;
+    font-size: 1rem;
+  
+  }
+  .socials{
+    padding-block: 40px;
+  }
+
+  .socials>*{
+    padding-bottom: 20px;
+  }
+
+}
+
+@media screen and (min-width:675px) {
+  .list-items {
+    background: none;
+    position: static;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    gap: 30px;
+    font-family: var(--primary-font-family);
+  }
+
+  #herobutton {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #herosection .container {
+    max-width: --container;
+    padding: var(--spacing-sm);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 30px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .close {
+    display: nones;
+  }
+
+  .list-items>* {
+    color: var(--secondary-bg-color);
+  }
+
+
+  #herotext {
+    line-height: 1.5;
+    font-size: var(--font-size-sm);
+  }
+
+  #largeText {
+    font-size: var(--font-size-xxl);
+    display: block;
+    margin: auto;
+    margin-inline: 2px;
+    text-align: left;
+    line-height: 1.2;
+    font-weight:800;
+  }
+
+  #herobutton {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .btn{
+    padding: var(--padding-sm) var(--padding-sm);
+    border: none;
+    font-size: 1.2rem;
+  
+  }
+
+  .text-btn{
+    border: 2px solid var(--secondary-text-color);
+  }
+
+  .socials{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
+    padding-block: 40px;
+  }
+  
+  .socials>*{
+    cursor: pointer;
+  }
+
+}
+
+footer {
+  background-color: var(--secondary-bg-color);
+  max-width: 100vw;
+  height: 40%;
+}
+
+/* #herobanner {
+  max-width: 50rem;
+  height: 46.875rem;
+  border-radius: 6.25rem;
+} */

@@ -1,0 +1,63 @@
+@import url("variables.css");
+
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: var(--font-size-lg);
+}
+
+h2 {
+  font-size: var(--font-size-xxl);
+}
+
+nav {
+  font-weight: var(--font-weight-light);
+  font-size: var(--font-size-sm);
+  color: var(--primary-text-color);
+}
+
+p {
+  font-size: var(--paragraph-font-size);
+}
+
+#herotext {
+  font-size: var(--font-size-lg);
+  color: var(--secondary-text-color);
+}
+
+#largeText {
+  font-size: var(--font-size-xxl);
+}
+
+.gradientText {
+  background: var(--gradient-text-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#footer-largelink {
+  font-size: var(--font-size-xxl);
+  color: var(--tertiary-text-color);
+  text-align: center;
+  padding-top: 60px;
+}
+
+#footer-sociallink {
+  font-size: var(--font-size-lg);
+  list-style-type: none;
+  padding-bottom: var(--padding-xl);
+  text-decoration: underline;
+}
+
+.footer-text > li {
+  color: var(--tertiary-text-color);
+  text-align: center;
+  text-decoration: underline;
+}

@@ -1,0 +1,101 @@
+/* variables.css */
+html {
+  font-size: 16px;
+}
+/* colors */
+:root {
+  --primary-bg-color: #fbf7fb;
+  --secondary-bg-color: #232023;
+  --primary-text-color: #232023;
+  --secondary-text-color: #636369;
+  --tertiary-text-color: #ffffff;
+  --gradient-text-color: -webkit-linear-gradient(
+    60deg,
+    #b16cea 20%,
+    #ff5e69 40%,
+    #ff8a56 65%,
+    #ffa84b 91%
+  );
+  --link-color: #232023;
+  --link-hover-color: #232023;
+}
+
+/* typography */
+:root {
+  /* Font Families */
+  --primary-font-family: "Poppins", "Roboto", sans-serif;
+  --secondary-font-family: "Poppins", "Roboto", sans-serif;
+
+  /* Container size*/
+  --device-width:1200px;
+
+  /* Font sizes */
+  --font-size-xxl: 3rem;
+  --font-size-xl: 2.5rem;
+  --font-size-lg: 2rem;
+  --font-size-md: 1.8rem;
+  --font-size-sm: 1.4rem;
+  --font-size-xs: 0.8rem;
+
+  /* Font weights */
+  --font-weight-light: 200;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Font height */
+  --base-line-height: 1.6;
+  --heading-line-height: 1.4;
+
+  /* Font spacing */
+  --base-letter-spacing: 0.02em;
+  --heading-margin-bottom: var(--margin-xs);
+}
+
+/* Spacing variables */
+:root {
+  --spacing-xs: 0.8rem;
+  --spacing-sm: 1.4rem;
+  --spacing-md: 1.8rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 2.5rem;
+  --spacing-xl: 3rem;
+}
+
+/* Margin variables */
+:root {
+  --margin-xs: var(--spacing-xs);
+  --margin-sm: var(--spacing-sm);
+  --margin-md: var(--spacing-md);
+  --margin-lg: var(--spacing-lg);
+  --margin-xl: var(--spacing-xl);
+}
+
+/* Component-specific margin */
+:root {
+  --button-margin: var(--spacing-sm);
+  --input-margin: var(--spacing-sm);
+  --card-margin: var(--spacing-sm);
+  --section-margin: var(--spacing-sm);
+
+}
+
+/* Padding variables */
+:root {
+  --padding-xs: var(--spacing-xs);
+  --padding-sm: var(--spacing-sm);
+  --padding-md: var(--spacing-md);
+  --padding-lg: var(--spacing-lg);
+  --padding-xl: var(--spacing-xl);
+}
+/* Component-specific padding */
+:root {
+  --button-padding: var(--spacing-sm);
+  --input-padding: var(--spacing-sm);
+  --card-padding: var(--spacing-md);
+  --section-padding: var(--spacing-lg);
+}
+
+:root {
+  --container: 1200px;
+}
+
