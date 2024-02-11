@@ -160,7 +160,7 @@ ul {
   }
 
   .btn{
-    padding: var(--padding-sm) var(--padding-sm);
+    padding: 1rem var(--padding-sm);
     border: none;
     font-size: 1rem;
   
