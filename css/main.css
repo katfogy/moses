@@ -61,7 +61,7 @@ ul {
   .close {
     position: fixed;
     color: #ffff;
-    right: 40px;
+    right: 20px;
     z-index: 25;
     top: 30px;
     font-size: var(--font-size-md);
@@ -147,11 +147,11 @@ ul {
 
   #herotext {
     line-height: 1.5;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   #largeText {
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: block;
     margin: auto;
     margin-inline: 2px;
