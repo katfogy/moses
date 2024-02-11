@@ -242,7 +242,7 @@ ul {
   }
 
   .btn{
-    padding: var(--padding-sm) var(--padding-sm);
+    padding: 12px var(--padding-sm);
     border: none;
     font-size: 1.2rem;
   
