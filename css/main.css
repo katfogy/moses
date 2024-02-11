@@ -221,6 +221,7 @@ ul {
   #herotext {
     line-height: 1.5;
     font-size: var(--font-size-sm);
+    font-weight: 500;
   }
 
   #largeText {
